@@ -1,0 +1,202 @@
+/* Container*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html,body {
+    background-color: #000;
+    background-image: url(./images/portEric.png);
+    background-position: 50% 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #fff;
+    /* font-size: 14px;
+    line-height: 20px;  */
+   
+}
+
+
+/*-------------------------------------------------------------*/
+
+/* Navigation bar*/
+header {
+    /* border: 2px solid red;  */
+    position: fixed;
+    top: 0px;
+    z-index: 10;
+    display: block;
+    width: 100%;
+    clear: none;
+    background-color: rgba(7,7,7,.93);
+   
+}
+
+
+
+header nav ul {
+    margin-left: 110px;
+    display: flex;
+}
+
+
+header nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+header nav ul li {
+    
+    font-size: 18px;
+    display: inline-block;
+    padding: 15px 15px;
+      
+}
+
+#contact {
+    padding-left: 750px;
+}
+
+/*-------------------------------------------------------------*/
+
+/* Main Content*/
+.content{
+    /* border: 2px solid red;  */
+    width: 40vw;
+    height: 100vh;
+    margin-top: 0px;
+    margin-left: 120px;
+    padding-bottom: 15px;
+    
+}
+
+h2{
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.14286;
+    letter-spacing: .01em;
+    font-weight: 400;
+    font-size: 28px;
+
+}
+
+.title{
+    margin: 30px 0 30px 0;
+}
+#last_h3{
+    margin: 15px 0 10px 0;
+}
+h1{
+    font-size: 60px;
+    font-weight: 600;
+    letter-spacing: -.01em;
+    text-transform: none;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h3{
+    color: #ccc;
+    letter-spacing: .01em;
+    font-weight: 400;
+    font-size: 18px;
+    opacity: 1;
+    transform: translateX(0px) translateY(0px) translateZ(0px);
+    transition: opacity 1000ms cubic-bezier(0.47, 0, 0.745, 0.715) 0s, transform 1000ms ease 0s;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.58105;
+    
+}
+
+h4{
+    letter-spacing: .01em;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 1.38105;
+}
+
+#contact-info{
+    margin-bottom: 25px;
+}
+
+.text-color{
+    color: #f0860c;
+    text-decoration: none;
+}
+
+.learn-more{
+    width: 14px;
+    height: 14px;
+}
+
+.form-display{
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.form-display-input{
+    width: 100%;
+    height: 20px;
+    padding: 8px 12px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    line-height: 1.42857143;
+}
+
+
+.textarea{
+    height: 100px;
+    font-size: 15px;
+}
+
+.form-input{
+    background-color: rgba(27,27,27,.91);
+    border-color: rgba(27,27,27,.91);
+    border-style: none;
+    border-radius: 10px;
+
+}
+
+.form-label{
+    color: #ccc;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.form-submit {
+    min-height: 45px;
+    min-width: 116px;
+    margin-top: 10px;
+    border-radius: 12px;
+    color: #f0860c;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.form-submit:hover{
+    background-color: #f0860c;
+    color: rgba(27,27,27);
+
+}
+
+main{
+    /* border: 2px solid red; */
+    margin-top: 100px;
+}
+
+
+/* ...........................Works.............................................. */
+
+.builds-parent{
+    display: block;
+    width: 100%;
+    height: auto;
+    border: 2px solid red;
+}
+
+
+
+
