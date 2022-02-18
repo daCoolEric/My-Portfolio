@@ -154,6 +154,7 @@ h4 {
 #email:focus,
 #message:focus {
   color: #ccc;
+  outline: none !important;
 }
 
 .form-label {
@@ -169,6 +170,7 @@ h4 {
   color: #f0860c;
   font-size: 18px;
   font-weight: 500;
+  cursor: pointer;
 }
 
 .form-submit:hover {
